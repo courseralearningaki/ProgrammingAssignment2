@@ -50,9 +50,10 @@ makeCacheMatrix <- function(matrixObj = matrix()) {
         getsolve <- function() inversedMatrixObj
         
         ## provide reference to internal methods
-        list(set = set, get = get,
-             setsolve = setsolve,
-             getsolve = getsolve)
+        list(   set = set,
+                get = get,
+                setsolve = setsolve,
+                getsolve = getsolve)
 }
 
 
